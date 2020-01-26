@@ -1,0 +1,1250 @@
+/* iPad pro landscape*/
+@media only screen and (min-device-height: 1024px) and (max-width: 1366px){
+
+    header{
+        width: 48%;
+    }
+    header .p-sub{
+        padding-top: 18%; 
+        font-size: 150%;
+    } 
+    .logo .sub {   
+        font-size: 175%;  
+    }
+
+    #logo-imag{
+        width: 85%; 
+    }
+    .address {
+        font-size: 120%;
+    }
+    .paw {
+        top: 28%;
+        left: 85%;
+        font-size: 220%;
+    }
+    #cup {
+        font-size: 400%;
+    }   
+   
+    .down-arrow {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+        font-size: 300%;
+    }
+    @-webkit-keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 400%;
+       }
+    }
+    @keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 400%;
+       }
+    }
+    .slideshow li {
+        -webkit-transform: scale(1.8);
+        transform: scale(1.8);
+    }
+    @-webkit-keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+        }
+        25% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+@keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+        }
+        25% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+    .menu{
+        width: 100vw;
+    }
+    .lg-logo {
+        top: 150%;
+    }
+    .col h1{
+        font-size: 250%;
+    }
+    .col h2 {
+        font-size: 190%;
+    }
+    .col-1{
+        -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+        padding-top: 25%;
+    }
+    
+    .col-2 i {
+        font-size: 600%;
+    }
+    .location {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    #drink-cup{
+        padding-top: 50%;
+    }
+    .col-3,
+    .col-4,
+    .col-5{
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%; 
+        font-size: 120%;
+       
+    }
+    .col-3 {
+        padding-top: 5%;
+    }
+
+    footer {
+        font-size: 85%;
+    }
+}
+
+
+/*small tablets to big rablets 812px to 1024px  iPad landscape*/
+
+@media only screen and (max-width: 1024px){
+    header{
+        width: 45%;
+    }
+    header .p-sub{
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+        padding-top: 20%; 
+    }
+    header .p-sub{
+        padding-top: 20%; 
+        font-size: 170%;
+    }
+@-webkit-keyframes imgAnimation {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    5% {
+        opacity: 1;
+        
+    }
+    20% {
+        opacity: 1;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    25% {
+        opacity: 0;
+    }
+    30%{
+         -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes imgAnimation {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    5% {
+        opacity: 1;
+        
+    }
+    20% {
+        opacity: 1;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    25% {
+        opacity: 0;
+    }
+    30%{
+         -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+    .logo {
+        -ms-flex-preferred-size: 35%;
+        flex-basis: 35%;
+    }
+    #logo-imag{
+        width: 85%; 
+    }
+
+    .paw {
+        top: 35%;
+        left: 85%;
+    }
+    .col-2 i {
+        font-size: 410%;
+    }
+
+    .col-1{
+        padding-top: 35%;
+    }
+    .menu-group{
+        padding-bottom: 20%;
+    }
+    #food {
+        padding-top: 20%;
+    }
+    .col-3{
+        padding-top: 25%;
+    }   
+    
+}
+ /*iPad Pro portrait*/
+@media only screen and (min-device-height: 1366px) and (max-width: 1024px){
+
+    header{
+        width: 50%;
+        padding: 10px;
+    }
+    header .p-sub{
+        font-size: 150%;
+        padding-top: 44%; 
+    }
+    .logo {
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    }
+    #logo-imag{
+        width: 100%; 
+    }
+    .logo .sub {
+        font-size: 190%;  
+    }
+    #cup {
+        padding-top: 5%;
+    }
+    .down-arrow {
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+        font-size: 300%;
+    }
+    @-webkit-keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 500%;
+       }
+    }
+    @keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 500%;
+       }
+    }
+    @keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 500%;
+       }
+    }
+    @keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 500%;
+       }
+    }
+    .slideshow li {
+        -webkit-transform: scale(1.8);
+        transform: scale(1.8);
+    }
+    @-webkit-keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+            
+        }
+        24% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+    @keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+            
+        }
+        24% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+    .details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .col-2 i{
+        font-size: 600%;
+    }
+    .menu {
+         
+         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 88, 4, 0.74)), color-stop(rgba(250, 250, 250, 0.41)), color-stop(rgba(13, 215, 252, 0.31)), to(rgba(44, 253, 17, 0.13))), url(../img/imageMoca/moca-11_01.jpg);
+         
+         background-image: linear-gradient(rgba(247, 88, 4, 0.74), rgba(250, 250, 250, 0.41), rgba(13, 215, 252, 0.31), rgba(44, 253, 17, 0.13)), url(../img/imageMoca/moca-11_01.jpg);        
+    }
+    .col-1{
+        padding-top: 5%;
+    }
+    .menu-group {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        text-align: center;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+
+    .col-2 {
+        padding: 100px;
+    }
+    #food,
+    #drink-cup{
+        padding-top: 90px;
+    }
+    
+    .location {
+        width: 100vw;
+    }
+    .col-3, 
+    .col-4,
+    .col-5 {
+        -ms-flex-preferred-size: 1;
+        flex-basis: 1;
+    }
+    .col-3{
+        padding-top: 0;
+    } 
+    .container, .container-food{
+        margin-top: 10%;
+    }
+    
+}
+
+
+/*Pixel 2 XL   */  
+@media only screen and (max-width: 824px){
+    header{
+        width: 38%;
+        padding: 20px;
+    }
+    header .p-sub{
+        font-size: 90%;
+        padding-top: 10%;
+    }
+    .logo {
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    }
+    .address {
+        padding: 0;
+        font-size: 75%; 
+    }
+    .logo .sub {
+        font-size: 90%;  
+    }
+    .paw {
+        font-size: 126%;
+        top: 31%;
+        left: 81%;
+    }
+    #cup {
+        font-size: 170%;
+        padding-top: 5%;
+    }
+    
+    .down-arrow {
+        -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+        font-size: 200%;
+    }
+
+    @-webkit-keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 500%;
+       }
+    }
+    @keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 250%;
+       }
+    }    
+
+    .col h1{
+        font-size: 150%;
+    }
+    .col h2 {
+        font-size: 130%;
+    }
+    .location {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        font-size: 80%;
+    }
+    .col-3{
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+        padding-top: 8%;
+    }
+    .col-5{
+        padding-bottom: 5%;
+    }
+    .col-1{
+        padding-top: 12%;
+    }
+    .col-2 {
+        padding-top: 5%;
+    }
+    .col-2 i{
+        font-size: 300%;
+    }
+        
+    .lg-logo {
+        font-size: 70%;
+    }
+
+    .menu-list {
+        font-size: 80%;
+    }
+    footer {
+        font-size: 68%;
+    }
+    
+}
+
+
+
+/*small tablets 769 to 812px iPhone-X landscape-- */
+
+@media only screen and (max-width: 812px){
+    header {
+        width: 40%;
+        padding: 10px;  
+    }
+    header .p-sub{
+        font-size: 90%;
+    }
+    #logo-imag{
+        width: 100%;
+    }
+    .logo {
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    }
+    .logo p {
+        font-size: 70%;  
+    }
+    .address {
+        font-size: 70%;
+    }
+    .slideshow li {
+        background-size: cover;
+    }
+     @-webkit-keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+            
+        }
+        24% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+    }
+     @keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+            
+        }
+        24% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+    }
+    #cup {
+        font-size: 200%;
+    }
+    .down-arrow {
+        -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
+        font-size: 100%;
+    }
+   @-webkit-keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 280%;
+       }
+    }
+   @keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 200%;
+       }
+    }
+    .paw {
+        left: 79%;
+    }
+    .logo {
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;     
+    }
+    .col h1{
+        font-size: 150%;
+    }
+    .col h2 {
+        font-size: 120%;
+    }
+    .col-1{
+        padding-top: 10%;
+    }
+    .col-3{
+        padding-top: 6%;
+    }
+}
+/* iPhone 6/7/8 plus , Pixel2 landscape small tablet*/ 
+
+@media only screen and (max-width: 768px){
+    header {
+        width: 45%;
+        padding: 15px 10px;  
+    }
+    .logo {
+        -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+    }
+
+    .address {
+        font-size: 80%;
+    }
+    #cup {
+        font-size: 220%;
+    }
+    .paw {
+        top: 32%;
+        left: 78%;
+    }
+    .col h1{
+        font-size: 135%;
+    }
+    .col h2 {
+        font-size: 120%;
+    }
+    .col-1{
+        padding-top: 15%;
+    }
+    .col-2 {
+        padding-top: 8%;
+    }
+    .location {
+        font-size: 71%;
+    }
+    .col-3{
+        padding-top: 15%;
+    }
+    footer {
+        font-size: 65%;
+    }
+    .menu-list {
+        font-size: 75%;
+    }
+}
+
+
+/* iPad portrait kindle */
+
+@media only screen and (min-device-height: 1024px) and (max-width: 768px){
+    header {
+        width: 40%;
+        padding: 20px;  
+    }
+    header .p-sub{
+        font-size: 120%;
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+        padding-top: 70%;
+    }
+    .address {
+        font-size: 120%;
+        padding: 20px 10px;
+    }
+    .logo {
+        -ms-flex-preferred-size: 20%;
+        flex-basis: 20%
+    }
+    .paw {
+        top: 35%;
+    }
+    #cup {
+        font-size: 320%;
+        -ms-flex-preferred-size: 7%;
+        flex-basis: 7%;
+    }
+    .down-arrow {
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+        font-size: 300%;
+    }
+    @-webkit-keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 500%;
+       }
+    }
+    @keyframes goingDown {
+    2% { 
+        opacity: 1;
+        }
+    100%{
+        opacity: 1;
+        font-size: 500%;
+       }
+    }
+    .slideshow li {
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+     @-webkit-keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+            
+        }
+        24% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+        }
+    }
+     @keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+            
+        }
+        24% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+        }
+    }
+    .menu {
+
+         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 88, 4, 0.74)), color-stop(rgba(250, 250, 250, 0.41)), color-stop(rgba(13, 215, 252, 0.31)), to(rgba(44, 253, 17, 0.13))), url(../img/imageMoca/moca-11_01.jpg);
+
+         background-image: linear-gradient(rgba(247, 88, 4, 0.74), rgba(250, 250, 250, 0.41), rgba(13, 215, 252, 0.31), rgba(44, 253, 17, 0.13)), url(../img/imageMoca/moca-11_01.jpg);        
+    }
+    .col-1{
+        padding-top: 5%;
+    }    
+    .details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .col-2 i{
+        font-size: 450%;
+    }
+    
+    .menu-group {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        text-align: center;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+
+    .col-2 {
+        padding: 100px;
+    }
+    #food,
+    #drink-cup{
+        padding-top: 90px;
+    }
+    
+    .location {
+        width: 100vw;
+    }
+    .col-3, 
+    .col-4,
+    .col-5 {
+        -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+    }
+    .col-3{
+        padding-top: 8%;
+    } 
+    .col-5{
+        padding-bottom: 8%;
+    }
+
+    .container, .container-food{
+        margin-top: 10%;
+    }   
+}
+
+
+/* iPhone 6/7/8 GalaxyS5 landscape*/ 
+@media only screen and (max-width: 667px){
+    header {
+        padding: 5px 20px;
+    }
+    header .p-sub{
+        padding-top: 15%;
+    }
+    .logo .sub {
+        font-size: 82%;
+    }
+    .address {
+        font-size: 65%;
+    }
+    #cup{
+        font-size: 200%;
+    }
+    .paw {
+        font-size: 110%;
+        left: 80%;
+    }
+    .col h1{
+        font-size: 125%;
+    }
+    .col h2 {
+        font-size: 110%;
+    }
+    .col-3{
+        padding-top: 12%;
+    }
+    .col-4{
+        padding-top: 5%;
+    }
+    .col-2 i{
+        font-size: 230%;
+    }
+    footer {
+        font-size: 63%;
+    }
+}
+/* iPhone 5/SE landscape*/
+@media only screen and (max-width: 568px){
+    header {
+        width: 50%;
+    }
+    header .p-sub{
+        font-size: 80%;
+        padding: 5%;
+    }
+    .logo {
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;  
+    }
+
+    #cup {
+        font-size: 190%;
+    }
+    .address {
+        padding: 5px;
+    }
+    .down-arrow {
+        -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
+    }
+    .slideshow li {
+        background-size: cover;
+    }
+
+     @-webkit-keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+            
+        }
+        24% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+    }
+    
+    @keyframes imgAnimation {
+        0% {
+            opacity: 0;
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+        }
+        5% {
+         opacity: 1;
+        
+        }
+        20% {
+         opacity: 1;
+         -webkit-animation-timing-function: ease-out;
+         animation-timing-function: ease-out;
+            
+        }
+        24% {
+            opacity: 0;
+        }
+        30%{
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+    }
+    
+    .location li,
+    .location p{
+        font-size: 88%;
+    }
+    .col h1{
+        font-size: 118%;
+    }
+    .col h2 {
+        font-size: 110%;
+    }
+    .col i {
+    font-size: 200%;
+    }
+    .col-3{
+        padding-top: 5%;
+    }
+    .lg-logo {
+        font-size: 0.4em;
+    }
+    footer{
+        font-size: 59%;
+    }
+    .menu-list {
+        font-size: 67%;
+    }
+    
+}
+
+/*Pixel 2 XL, Pixel 2 iPhone 6/7/8 Plus  *iPhone x portrait Android*/
+@media only screen and (min-device-height: 731px) and (max-device-height: 823px) and (max-width: 480px){
+    header {
+        padding: 3%;
+    }
+     header .p-sub{
+        padding: 80% 25% 15%;
+    }
+    .logo {
+        -ms-flex-preferred-size: 22%;
+        flex-basis: 22%;  
+    }
+   
+    .logo .sub {
+        font-size: 120%;
+        padding: 5% 10%;  
+    }
+    
+    .paw {
+        opacity: 0;
+    }
+    #cup {
+        font-size: 250%;
+        -ms-flex-preferred-size: 6%;
+        flex-basis: 6%;
+    }
+    .address {
+        padding: 10%;
+        
+    }
+    .details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100vw;
+    
+         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 88, 4, 0.74)), color-stop(rgba(250, 250, 250, 0.41)), color-stop(rgba(13, 215, 252, 0.31)), to(rgba(44, 253, 17, 0.13))),  url(../img/imageMoca/moca-11_01.jpg);
+    
+         background-image: linear-gradient(rgba(247, 88, 4, 0.74), rgba(250, 250, 250, 0.41), rgba(13, 215, 252, 0.31), rgba(44, 253, 17, 0.13)),  url(../img/imageMoca/moca-11_01.jpg);        
+    }
+    .col-1{
+        padding-top: 30%;
+    }
+    .location {
+        width: 100vw;
+    }
+    .lg-logo {
+        top: 150%;
+        font-size: 0.5em;
+    }
+     .col-2 i{
+        font-size: 250%
+    }
+    
+    .menu-group {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        text-align: center;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+
+    .col-2 {
+        padding:5px 50px;
+    }
+    #food,
+    #drink-cup{
+        padding-top: 0;
+    }
+    .col-3, 
+    .col-4,
+    .col-5 {
+        -ms-flex-preferred-size: 1;
+        flex-basis: 1;
+    }
+    .col-3{
+        padding-top: 10%;
+    } 
+    
+    .listing{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .container, .container-food{
+        margin-top: 15%;
+    }
+    footer {
+        padding: 15px;
+    }
+    .top { 
+        -webkit-box-orient: horizontal; 
+        -webkit-box-direction: normal; 
+        -ms-flex-direction: row; 
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .top p,
+    .top ul{
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        -ms-flex-item-align: center;
+        align-self: center;
+    }
+    .top p{
+        text-align: right;
+        padding-right: 11.5%;
+    }
+    .top ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 3%;
+    }
+    .top li {
+        padding: 3px;
+    }
+    .bottom p {
+        padding: 10px;
+    }
+    
+}
+
+/*iPhone 6/7/8 portrait Android 480 x 320*/
+@media only screen and (min-device-height: 480px) and (max-width: 375px){
+    header {
+        width: 70%;
+    }
+     header .p-sub{
+        padding: 50% 25% 15%;
+    }
+    .logo {
+        -ms-flex-preferred-size: 23%;
+        flex-basis: 23%;  
+    }
+    .paw {
+      opacity: 0;
+    }
+    .address {
+        padding: 12%;
+        font-size: 70%;
+    }
+    .lg-logo {
+        top: 150%;
+        font-size: 0.4em;
+    }
+
+    .menu {
+        width: 100vw;
+         
+
+         
+         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 88, 4, 0.74)), color-stop(rgba(250, 250, 250, 0.41)), color-stop(rgba(13, 215, 252, 0.31)), color-stop(rgba(13, 215, 252, 0.31)), to(rgba(44, 253, 17, 0.13))), url(../img/imageMoca/moca-11_01.jpg);
+         
+
+         
+         background-image: linear-gradient(rgba(247, 88, 4, 0.74), rgba(250, 250, 250, 0.41), rgba(13, 215, 252, 0.31), rgba(13, 215, 252, 0.31), rgba(44, 253, 17, 0.13)), url(../img/imageMoca/moca-11_01.jpg);        
+    }
+    .col-1{
+        padding-top: 10%;
+    }
+     .details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        
+    }
+    .col-2 i{
+        font-size: 250%
+    }
+    
+    .menu-group {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        text-align: center;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+    #food,
+    #drink-cup{
+        padding-top: 70px;
+    }
+    .col-2 {
+        padding: 80px 50px;
+    }
+    .col h1:after,
+    .location h2:after{
+        margin: 5px auto 5px; 
+    }
+    .location {
+        width: 100vw;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-around;
+    }
+    .col-3, 
+    .col-4,
+    .col-5 {
+        -ms-flex-preferred-size: 30%;
+        flex-basis: 25%;
+    }
+    .listing{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .container, .container-food{
+        margin-top: 15%;
+    }
+    .top p {
+        padding-bottom: 5px;
+    }
+    .top ul{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .top li {
+        padding: 6px;
+    }
+
+}
+
