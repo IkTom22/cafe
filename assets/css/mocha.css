@@ -365,6 +365,7 @@ header .p-sub{
     align-items: center;
     z-index: 0;
 }
+
 .menu {
     background-image: linear-gradient(rgba(247, 88, 4, 0.74), rgba(250, 250, 250, 0.41), rgba(13, 215, 252, 0.31), rgba(44, 253, 17, 0.13)), url(../img/imageMoca/moca-11.jpg);
     background-size: cover;
@@ -584,7 +585,7 @@ header .p-sub{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-basis 90%;
+    flex-basis: 90%;
 }
 .listing .col {
     flex-basis: 33.33%;
